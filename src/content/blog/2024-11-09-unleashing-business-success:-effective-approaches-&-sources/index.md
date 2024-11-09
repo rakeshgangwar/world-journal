@@ -6,7 +6,7 @@ summary: >-
   organizational effectiveness, recruitment sources, and communication
   techniques.
 date: 2024-11-09T12:29:03.794Z
-draft: truw
+draft: true
 featured: false
 tags:
   - Default
