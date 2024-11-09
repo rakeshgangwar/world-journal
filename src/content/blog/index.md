@@ -1,5 +1,5 @@
 ---
-title: 'Astro Sphere: File Structure'
+title: 'Astro Sphere: File Structure Guide'
 summary: You'll find these directories and files in the project. What do they do?
 date: 2024-03-16T18:30:00.000Z
 draft: false
