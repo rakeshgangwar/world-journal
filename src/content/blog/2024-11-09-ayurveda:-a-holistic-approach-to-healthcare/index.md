@@ -4,7 +4,7 @@ summary: >-
   Exploring the profound impact of Ayurveda on modern healthcare practices and
   its relevance in promoting holistic well-being.
 date: 2024-11-09T12:20:20.517Z
-draft: false
+draft: true
 featured: false
 tags:
   - Default

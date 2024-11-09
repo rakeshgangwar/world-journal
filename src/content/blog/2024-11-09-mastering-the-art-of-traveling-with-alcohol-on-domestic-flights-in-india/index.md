@@ -4,7 +4,7 @@ summary: >-
   A guide on traveling with alcohol on domestic flights in India, focusing on
   rules, packing tips, and insights for a hassle-free journey.
 date: 2024-11-09T13:44:23.260Z
-draft: false
+draft: true
 featured: false
 tags:
   - Default

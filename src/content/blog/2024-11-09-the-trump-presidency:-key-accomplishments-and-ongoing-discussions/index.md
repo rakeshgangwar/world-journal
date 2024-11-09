@@ -4,7 +4,7 @@ summary: >-
   Exploring the noteworthy accomplishments of the Trump presidency and the
   ongoing discussions surrounding them.
 date: 2024-11-09T12:43:01.734Z
-draft: false
+draft: true
 featured: false
 tags:
   - Default

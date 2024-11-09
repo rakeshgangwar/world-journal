@@ -5,7 +5,7 @@ summary: >-
   startup founders maintain deep involvement in all company levels, sparking
   innovation but also debate over potential micromanagement.
 date: 2024-11-09T13:28:59.574Z
-draft: false
+draft: true
 featured: false
 tags:
   - Default

@@ -5,7 +5,7 @@ summary: >-
   highlighting key aspects of India's role in international organizations,
   economic power, public perception, and future projections.
 date: 2024-11-09T11:56:48.647Z
-draft: false
+draft: true
 featured: false
 tags:
   - Default

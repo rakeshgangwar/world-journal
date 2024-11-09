@@ -4,7 +4,7 @@ summary: >-
   A detailed overview of the global warming crisis, its impact, and the urgent
   need for action to combat climate change.
 date: 2024-11-09T11:42:43.435Z
-draft: false
+draft: true
 featured: false
 tags:
   - Default

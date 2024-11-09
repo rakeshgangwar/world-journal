@@ -4,7 +4,7 @@ summary: >-
   Exploring the intricacies of mortgage distribution systems and their impact on
   homeownership dreams.
 date: 2024-11-09T13:19:23.030Z
-draft: false
+draft: true
 featured: false
 tags:
   - Default

@@ -4,7 +4,7 @@ summary: >-
   Exploring the challenges and trends of malnutrition in India and the need for
   collective action to address this pressing issue.
 date: 2024-11-09T12:58:49.632Z
-draft: false
+draft: true
 featured: false
 tags:
   - Default
