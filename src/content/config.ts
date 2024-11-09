@@ -60,6 +60,7 @@ const legal = defineCollection({
 export const collections = { 
     work, 
     blog, 
+    guide,
     // projects, 
     legal 
 }
