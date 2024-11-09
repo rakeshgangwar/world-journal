@@ -1,7 +1,7 @@
 ---
 title: "Embracing Founder Mode: The New Wave of Startup Leadership"
-summary: "Explore the pros, cons, and impact of "Founder Mode," a management style where startup founders maintain deep involvement in all company levels, sparking innovation but also debate over potential micromanagement."
-date: "2024-11-09T13:28:59.574Z"
+summary: 'Explore the pros, cons, and impact of "Founder Mode," a management style where startup founders maintain deep involvement in all company levels, sparking innovation but also debate over potential micromanagement.'
+date: 2024-11-09T13:28:59.574Z
 draft: true
 featured: false
 tags:
