@@ -6,6 +6,7 @@ import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
+import PosthogLayout from "@layouts/PosthogLayout.astro"
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
@@ -41,6 +42,7 @@ const stack = [
 ]
 ---
 
+<PosthogLayout>
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
 
   <!-- Light Mode: Particles -->
@@ -222,3 +224,4 @@ const stack = [
     </div>
   </div>
 </PageLayout>
+</PosthogLayout>
