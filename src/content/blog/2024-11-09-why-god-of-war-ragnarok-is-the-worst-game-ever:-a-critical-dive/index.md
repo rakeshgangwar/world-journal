@@ -2,7 +2,7 @@
 title: "Why God of War Ragnarok is the Worst Game Ever: A Critical Dive"
 summary: "An analysis of why God of War Ragnarok is criticized, despite its acclaim, focusing on gameplay mechanics, narrative issues, and representation controversies."
 date: "2024-11-09T20:59:25.769Z"
-draft: false
+draft: true
 featured: false
 tags:
     - Default
