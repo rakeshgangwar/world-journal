@@ -4,7 +4,7 @@ summary: >-
   Explore the compact powerhouse that is the Mac Mini M4, offering enhanced CPU
   and GPU performance, modern design, and affordability.
 date: 2024-11-09T14:46:02.345Z
-draft: false
+draft: true
 featured: false
 tags:
   - Default
