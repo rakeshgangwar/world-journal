@@ -7,10 +7,15 @@ type Context = {
 }
 
 export async function GET(context: Context) {
-	const posts = await getCollection("blog")
-  const projects = await getCollection("projects")
+	const posts = (await getCollection("blog"))
+    .filter(post => !post.data.draft)
+    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  // const projects = await getCollection("projects")
 
-  const items = [...posts, ...projects]
+  const items = [
+    ...posts, 
+    // ...projects
+  ]
 
   items.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 
