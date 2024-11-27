@@ -2,7 +2,7 @@
 title: "Revolutions of Progress: A Wheel's Journey Through Civilization"
 summary: "The wheel reflects on its journey from ancient Mesopotamia to modern technology, highlighting its enduring role in enabling human progress through simplicity, efficiency, and constant motion across various modes of transportation."
 date: "2024-11-28T02:43:53.547036"
-draft: false
+draft: true
 featured: false
 tags:
     - Automotive
