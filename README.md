@@ -1,47 +1,100 @@
-# Astro Starter Kit: Minimal
+# World Journal
 
-```sh
-npm create astro@latest -- --template minimal
+A minimalist blog and portfolio site built with Astro, featuring a clean design with light/dark modes and dynamic content management through TinaCMS.
+
+## 🚀 Features
+
+- ⚡️ Built with Astro for blazing-fast performance
+- 🌗 Light/Dark mode with smooth transitions
+- 📝 Markdown & MDX support for content
+- 🎨 Tailwind CSS for styling
+- 🔍 Search functionality
+- 📱 Fully responsive design
+- ✍️ TinaCMS integration for content management
+- 🔄 Dynamic blog post filtering
+- 🌟 Animated backgrounds (particles in light mode, stars in dark mode)
+
+## 🛠️ Tech Stack
+
+- [Astro](https://astro.build)
+- [TinaCMS](https://tina.io)
+- [Tailwind CSS](https://tailwindcss.com)
+- [SolidJS](https://www.solidjs.com)
+- [TypeScript](https://www.typescriptlang.org)
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/world-journal.git
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+2. Install dependencies:
+```bash
+npm install
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+3. Set up environment variables:
+Create a `.env.local` file with the following:
+```
+NEXT_PUBLIC_TINA_CLIENT_ID=your_tina_client_id
+TINA_TOKEN=your_tina_token
+TINA_PUBLIC_IS_LOCAL=true
+GITHUB_BRANCH=your_branch_name
+```
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+4. Start the development server:
+```bash
+npm run dev
+```
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
-
 | Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| :----------------------- | :----------------------------------------------- |
+| `npm install`            | Installs dependencies                            |
+| `npm run dev`            | Starts local dev server at `localhost:4321`      |
+| `npm run dev:network`    | Starts dev server accessible on local network    |
+| `npm run build`          | Build your production site to `./dist/`          |
+| `npm run preview`        | Preview your build locally                       |
+| `npm run preview:network`| Preview build on local network                   |
+| `npm run lint`          | Run ESLint                                       |
+| `npm run lint:fix`      | Fix ESLint issues                                |
 
-## 👀 Want to learn more?
+## 📁 Project Structure
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```text
+/
+├── public/              # Static assets
+├── src/
+│   ├── components/      # UI components
+│   ├── content/         # Blog posts and other content
+│   ├── layouts/         # Page layouts
+│   ├── pages/          # Route components
+│   ├── styles/         # Global styles
+│   ├── lib/           # Utility functions
+│   ├── consts.ts      # Site configuration
+│   └── types.ts       # TypeScript types
+└── package.json
+```
+
+## 📝 Content Management
+
+Content can be managed through:
+1. Direct markdown/MDX files in the `src/content` directory
+2. TinaCMS admin interface at `/admin` (when configured)
+
+## 🎨 Customization
+
+1. Site configuration: Edit `src/consts.ts`
+2. Styling: Modify `src/styles/global.css` and Tailwind config
+3. Layout: Update components in `src/layouts`
+4. Content: Add/edit files in `src/content`
+
+## 📄 License
+
+[MIT License](LICENSE)
+
+## 👥 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
